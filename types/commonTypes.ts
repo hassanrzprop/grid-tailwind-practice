@@ -1,12 +1,9 @@
-export interface productType{
-    category:string,
-    id:number,
-    description:string,
-    // image:null,
-    price:string,
-    // rating:{
-    //     rate:string
-    //     count:number
-    // }
-    title:string
-}
+export type ProductType = {
+    category: string;
+    description: string;
+    id: number;
+    image: string;
+    price: number;
+    rating: { rate: number; count: number };
+    title: string;
+  };
